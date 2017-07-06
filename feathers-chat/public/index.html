@@ -1,0 +1,474 @@
+<html>
+  <head>
+    <title>Welcome to Feathers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+    .well.welld {
+    padding: 0px 4px;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+}
+    .css-typing
+    {
+        width: 30em;
+        white-space:nowrap;
+        overflow:hidden;
+        -webkit-animation: type 5s steps(40, end);
+        animation: type 6s steps(40, end);
+    }
+
+    @keyframes type{
+        from { width: 0; }
+    }
+
+    @-webkit-keyframes type{
+        from { width: 0; }
+    }
+    .well.wels {
+    border-radius: 1px;
+    background-color: #fff;
+    color: #080808;
+    box-shadow: 0 3px 40px rgba(0,0,0,0.33);
+    height: 250px;
+    padding: 35px;
+    border: none;
+}
+    
+    section#works {
+    font-weight: 400;
+    margin-top: 10em;
+}
+   .blim {
+    background-color: #ff876c;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: white;
+    /* font-size: .1em; */
+    padding: 13px;
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    font-weight: 900;
+    transition: all 1s ease;
+    animation: wond;
+    animation-name: wond;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* border: 1px solid white; */
+}
+.blim:hover {
+    background-color: rgba(255, 135, 108, 0.66);
+    border-radius: 50%;
+    transform: rotateX(-35deg);
+    cursor: pointer;
+    color: white;
+    /* font-size: .1em; */
+    padding: 13px;
+    text-align: center;
+    float: right;
+    margin-top: 5px;
+    font-weight: 900;
+    transition: all 1s ease;
+    animation: wond;
+    animation-name: wond;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /* border: 1px solid white; */
+}
+
+.blim1 {
+    float: right;
+    background-color: #fe866c;
+    padding: 10px 20px;
+    transition: all 1s ease;
+    color: #f5f5f5;
+    font-weight: 900;
+    border: 11px solid rgb(245, 245, 245);
+}
+.blim1:hover {
+    float: right;
+    background-color: rgba(255, 135, 108, 0.66);
+transform: rotateX(-35deg);
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #f5f5f5;
+    font-weight: 900;
+    border: 11px solid rgb(245, 245, 245);
+}
+    a,h1,h2,h3,h4,h5,h6,div,button,b,p,input{
+      font-family: quicksand;
+    }
+    ::-webkit-scrollbar {
+    width: 9px;
+    }
+ 
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        border-radius: 1px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+       background-image: linear-gradient(-225deg, #FFE29F 0%, #fe866c 48%, #fe866c 100%);
+       border-radius: 1px;
+        
+    }
+    .were {
+    border-radius: 1px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.63);
+    padding: 0px 40px;
+    min-height: 40em;
+    max-height: 40em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    }
+    .were-s{
+      width: 100%;
+      border:transparent;
+      background: transparent;
+      box-shadow: none;
+
+    }
+    #message{
+      border-radius: 1px;
+    }
+    .notif{
+      width: 30px;
+      height: 30px;
+    }
+    #heads{
+      height: 550px;
+      background-color: white;
+      margin-bottom: 1.4em;
+    }
+    .t-t1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: quicksand;
+    padding-top: 3em;
+    padding-bottom: .2em;
+    font-weight: 100;
+}
+#fir{
+  margin-bottom: 2em;
+}
+.t-t2{
+  padding-bottom:  1em;
+}
+#anim{
+
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+    border-bottom: 2px solid  #fe866c;
+    height: 8%;
+}
+.navbar-inverse .navbar-brand {
+    color: #333;
+    
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #333;
+    
+     border-bottom: 2px solid  #fe866c;
+    height: 8%;
+
+}
+.navbar{
+  background: transparent;
+  color: black;
+  border: none !important;
+}
+.were-l{
+  border-radius: 1px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.63);
+  border: none;
+}
+#bend{
+  animation-name: example;
+    animation-duration: 6s;
+    transition: all 1s ease;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {transform: scale(1.1);}
+    50%  {transform: scale(0.8);}
+    100% {transform: scale(1.1);}
+}
+  </style>
+  <body>
+<header id="heads">
+    <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <div class="navbar-header navbar-collapse">
+      <a class="navbar-brand" href="#">WatChat &nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+   
+    <ul class="nav navbar-nav navbar-right">
+    <li ><a href="#">Home</a></li>
+      <li><a href="#">Contact US</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  <section>
+    <div class="container">  
+        <div class="row">
+            <div class="col-md-7 col-xs-7" style="margin-top: 2em;">
+                <h1 class="text-center t-t1">Introducing To WatChat</h1>
+                <h4 class="text-center t-t2">A Place To Work With Firms Through Chating</h4>
+                <center>
+                  
+                 <button class="btn btn-success" style="border-radius: 50px; background-color: transparent; color: black; padding: 9px 35px; border: 2px solid #ff876c;">Lets Start Chating</button>&nbsp;&nbsp;
+&nbsp; &nbsp;                <button class="btn btn-success" style="border-radius: 50px;
+    background-color: #ff876c;
+    color: white;
+    padding: 9px 35px;
+    border: 2px solid #ff876c;" >Lets Start Chating</button>
+                </center>
+            </div>
+            <div class="col-md-5 col-xs-5">
+              <img src="https://www.dbeewebdesign.co.uk/img/services/Flat%20Icons-03-01.png" class="img-responsive" id="bend">
+            </div>
+        </div>
+
+    </div>
+
+  </section>
+  </header>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-4 col-xs-4">
+      <div class="well were-l">
+        <h3>Users</h3>
+         <div class="row">
+          <div class="col-md-5">
+         <img src="https://images.vexels.com/media/users/3/135118/isolated/preview/676bf0e9f3c16649cd7f426c6dcd755a-flat-user-sign-with-round-background-by-vexels.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>Wonderful Sopeoluwa</h5>
+          <h6><i class="fa fa-circle text-success"></i>&nbsp;&nbsp;Active User</h6>
+
+         </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://www.shareicon.net/download/2016/08/04/806683_man_512x512.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>Dele Boss</h5>
+          <h6><i class="fa fa-circle text-success"></i>&nbsp;&nbsp;Active User</h6>
+
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://maxcdn.icons8.com/Color/PNG/512/Users/user-512.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>Nwachukuw Chinache</h5>
+          <h6><i class="fa fa-circle text-danger"></i>&nbsp;&nbsp;Offline User</h6>
+
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Icons8_flat_businesswoman.svg/1000px-Icons8_flat_businesswoman.svg.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>I am $$$Besties</h5>
+          <h6><i class="fa fa-circle text-success"></i>&nbsp;&nbsp;Active User</h6>
+
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Icons8_flat_businesswoman.svg/1000px-Icons8_flat_businesswoman.svg.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>I am $$$Besties</h5>
+          <h6><i class="fa fa-circle text-success"></i>&nbsp;&nbsp;Active User</h6>
+
+         </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://maxcdn.icons8.com/Color/PNG/512/Users/user-512.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>Nwachukuw Chinache</h5>
+          <h6><i class="fa fa-circle text-danger"></i>&nbsp;&nbsp;Offline User</h6>
+
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://maxcdn.icons8.com/Color/PNG/512/Users/user-512.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>Nwachukuw Chinache</h5>
+          <h6><i class="fa fa-circle text-danger"></i>&nbsp;&nbsp;Offline User</h6>
+
+         </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-5">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Icons8_flat_businesswoman.svg/1000px-Icons8_flat_businesswoman.svg.png" class="img-responsive img-circle" style="width: 50px; height: 50px;">
+         </div>
+         <div class="col-md-pull-2 col-md-7">
+          <h5>I am $$$Besties</h5>
+          <h6><i class="fa fa-circle text-success"></i>&nbsp;&nbsp;Active User</h6>
+
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-xs-8">
+      <div class="well were">
+    <div class="well were-s"><i class="text-left fa fa-circle text-primary"></i>
+    &nbsp;&nbsp;&nbsp;<i class="text-left fa fa-circle text-danger"></i>
+    &nbsp;&nbsp;&nbsp;<i class="text-left fa fa-circle text-success"></i>
+
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p id="messageList"></p>
+      </div>
+      <div class="col-md-4">
+        <span id="date"></span>
+        <span id="min"></span>
+      </div>
+    </div>
+  
+    </div>
+    <div class="">
+      <div class="row">
+        <div class="col-md-2">
+         
+        </div>
+        <div class="col-md-8 col-xs-8">
+        <textarea type="text" name="" placeholder="Message Content" id="message"  class="form-control"></textarea>
+        </div>
+        <div class="col-md-2 col-xs-2">
+        <i class="fa fa-camera fa-2x"></i>&nbsp;&nbsp;
+        <i class="fa fa-share-alt fa-2x"></i>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+   
+  </div>
+<section id="works">
+  <div class="container">
+  <div class="row">
+      <div class="col-md-7 col-xs-6">
+
+        <img src="https://web3.com.au/wp-content/uploads/2015/09/Web3-Web-Design-Brisbane-home-attract-leads-macbook.gif" class="img-responsive">
+      </div>
+      <div class="col-md-5 col-xs-6">
+        <h3>Installation Process</h3><br>
+        <div class="well wels">
+          <div class="well welld">
+            <i class="fa fa-circle text-danger text-left"></i>&nbsp;&nbsp;&nbsp; <i class="fa fa-circle text-primary text-left"></i>&nbsp;&nbsp;&nbsp; <i class="fa fa-circle text-success text-left"></i>
+          </div>
+            <p class="css-typing">wonderful@lider# ~$ :npm install -g watchat-feathers</p>
+            <p class="css-typing">wonderful@lider# ~$ :npm install -g wat watch</p>
+            <p class="css-typing" >wonderful@lider# ~$ :npm yo watchat-feathers</p>
+            <p class="css-typing">wonderful@lider# ~$ :npm start</p>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+  
+</script>
+<script src="https://cdn.rawgit.com/feathersjs/feathers-client/v1.0.0/dist/feathers.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+
+   <script type="text/javascript" src=""></script>
+   <script>
+     
+
+     var socket = io();
+
+     var app = feathers();
+
+     app.configure(feathers.socketio(socket));
+
+     var messages = app.service('messages');
+
+     var thisDay, thisDate, thisMonth, thisHour, thisMinute;
+     function currentDate() {
+            
+            var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+            var date = new Date();
+            var day = date.getDay();
+            var hours = date.getHours();
+            var minute = date.getMinutes();
+            //console.log(day, month, hours, minute);
+            var ampm =  hours >= 12 ? "pm" : "am";//tenary operator displays pm or am depending on the hour
+            //console.log(ampm);
+            thisDay = dayNames[day];
+           
+            thisHour = hours;
+            thisMinute = minute;
+            console.log(thisDay,thisHour,thisMinute);
+        }
+        currentDate();
+     messages.on('created', function(message) {
+      var messageList = document.getElementById("messageList");
+
+      messageList.innerHTML += 
+       '<div class="well" id="anim">' +
+      
+       '<img src="https://maxcdn.icons8.com/Color/PNG/512/Users/user-512.png" class="img-responsive notif img-circle">' + 
+      
+       '<p class="text-justify" id="msgs">' + message.text + '</p>'
+        + '</div>'
+     ;
+    
+     var dates = document.getElementById('date');
+     dates.innerHTML = "<div class='blim1'>" +"<i class='fa fa-calendar'></i> &nbsp;&nbsp;"+thisDay+"<br>" + "</div>" ;
+      var mins = document.getElementById('min');
+      mins.innerHTML ="<div class='blim'>" + thisMinute + "<h5>Min Ago</h5>" + "</div>";
+      console.log("Your Message was sent", message.text.length,message._id, messages);
+     });
+     
+     document.getElementById('message').addEventListener('keypress', function (e) {
+      var key = e.which || e.keyCode;
+      if (key === 13) { // 13 is enter
+       var messageValue = document.getElementById("message").value;
+        messages.create({text: messageValue});
+        this.value = '';
+      
+      }
+       
+  });
+var items = {messages};
+localStorage.setItem('chatsApp', JSON.stringify(items));
+var retrievedObject = JSON.parse(localStorage.getItem('chatsApp'));
+console.log('retrievedObject: ', retrievedObject );
+   </script>
+  </body>
+</html>
